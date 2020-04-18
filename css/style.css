@@ -103,7 +103,7 @@ body {
 }
 .f-nav {
   height: 100px;
-  background-color: #272727;
+  background-color: transparent;
   width: 100%;
   margin-bottom: 0px;
   left: 0;
@@ -227,6 +227,7 @@ input[type="text"] {
   font-size: 40px;
   width: 600px;
   height: 350px;
+  padding-bottom: 462px;
 }
 .button3_start {
   height: 60px;
@@ -590,4 +591,8 @@ a {
   box-shadow: 0 0 50px var(--purple), 0 0 100px var(--purple),
     0 0 200px var(--purple);
   text-shadow: 0 0 5px var(--purple);
+}
+
+.number {
+  font-family: "brynda1231-sans", sans-serif;
 }
